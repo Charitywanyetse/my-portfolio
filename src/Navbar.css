@@ -1,0 +1,44 @@
+/* General navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9D00FF;   /* same dark color as in your screenshot */
+  padding: 1rem 2.5rem;
+  position: fixed;            /* stays at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo text */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;   /* space between links */
+  margin: 0;
+  padding: 0;
+}
+
+/* Links inside navbar */
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  color: #00e0ff;  /* cyan glow */
+}

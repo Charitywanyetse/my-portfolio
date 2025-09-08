@@ -1,0 +1,92 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 6rem 10%;
+  min-height: 100vh;
+}
+
+/* Left Text */
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text h3 span {
+  color: #00e0ff; /* cyan highlight */
+}
+
+.hero-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00e0ff;
+}
+
+/* Right Image */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glow-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(135deg, #ff00ff, #00e0ff, #ff007f);
+  animation: glow 3s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glow-circle img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0d1b2a; /* dark border inside */
+}
+
+/* Animation for glowing effect */
+@keyframes glow {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
