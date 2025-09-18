@@ -1,5 +1,7 @@
+import react from "react";
 import "./Hero.css";
-import profile from "../src/charity.jpg"; 
+import profile from "./assets/charity.jpg"; 
+import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
 
 
 
@@ -9,9 +11,9 @@ const Hero = () => {
       {/* Left Text Section */}
       <div className="hero-text">
         <h2>Hello, It's Me</h2>
-        <h1>WANYETSE   CHARITY</h1>
+        <h1>Wanyetse   Charity</h1>
         <h3>
-          And I'm a <span>Frontend , Backend Developer and a graphics designer</span>
+          I'm a <span>Frontend , Backend Developer and a graphics designer</span>
         </h3>
         <p>
     I'm a passionate Web and App Developer with 1 year of hands-on experience. 
@@ -23,12 +25,11 @@ user-friendly digital products.
         </p>
 
         {/* Social Links */}
-        <div className="social-icons">
-          <a href="https://www.linkedin.com/in/your-username" target="_blank" 
-            rel="noopener noreferrer"></a>
-          <a href="https://x.com/WanyetseC97596" target="_blank" rel="noopener noreferrer"></a>
-          <a href="https://www.facebook.com/profile.php?id=61567009384790" target="_blank" rel="noopener noreferrer"></a>
-        </div>
+             <div className="social-icons">
+         <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+         <a href="https://x.com/WanyetseC97596" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+         <a href="https://www.facebook.com/profile.php?id=61567009384790" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+       </div>
       </div>
 
       {/* Right Image Section */}

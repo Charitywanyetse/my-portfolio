@@ -14,19 +14,23 @@
 }
 
 /* Logo text */
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
+.logo-img {
+  width: 50px;   /* adjust size as needed */
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 80%;
+  object-fit: contain;
 }
+
 
 /* Navigation links */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 3rem;   /* space between links */
+  gap: 6rem;   /* space between links */
   margin: 0;
   padding: 0;
+  margin-right: 90px;
 }
 
 /* Links inside navbar */

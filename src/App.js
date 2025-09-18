@@ -1,16 +1,28 @@
-// App.jsx
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import Services from "./Services";  
+import Services from "./Services";
+import Contact from "./Contact"; 
+import Skills from "./Skills";
+import About from "./About";
 
 
-export default function App() {
+const App = () => {
   return (
-    <div className="min-h-screen bg-[#0d1b2a]">
+    <Router>
       <Navbar />
-      <Hero />
-      <Services />
-    </div>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/about" element={<About />} />
+        
+      </Routes>
+    </Router>
   );
-}
+};
+
+export default App;
+
 

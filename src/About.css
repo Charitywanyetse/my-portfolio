@@ -1,5 +1,5 @@
-/* Hero Section */
-.hero {
+
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,33 +9,33 @@
   min-height: 100vh;
 }
 
-/* Left Text */
-.hero-text {
+
+.about-text {
   max-width: 600px;
 }
 
-.hero-text h2 {
+.about-text h2 {
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
 }
 
-.hero-text h1 {
+.about-text h1 {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
-.hero-text h3 {
+.about-text h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
-.hero-text h3 span {
+.about-text h3 span {
   color: #00e0ff; /* cyan highlight */
 }
 
-.hero-text p {
+.about-text p {
   font-size: 1rem;
   line-height: 1.6;
   color: #cccccc;
@@ -71,8 +71,9 @@
   transform: scale(1.1);
 }
 
+
 /* Right Image */
-.hero-image {
+.about-image {
   display: flex;
   justify-content: center;
   align-items: center;
