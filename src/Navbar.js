@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <a href="/">
+      {/* <h1>Wanyetse Charity</h1> */}
         <img src={logo} alt="Logo" className="logo-img" />
+        {/* <h1>Wanyetse Charity</h1> */}
       </a>
 
       <ul className="nav-links">

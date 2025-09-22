@@ -12,14 +12,21 @@
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+.navbar h1{
+  color: #eee9f1;
+  font-size: medium;
+  margin-left: 100PX;
+  margin-bottom: 0PX;
+  gap: 3rem;
+}
 
 /* Logo text */
 .logo-img {
-  width: 50px;   /* adjust size as needed */
-  height: 60px;
+  width:80px;   /* adjust size as needed */
+  height: 80px;
   border: 2px solid white;
-  border-radius: 80%;
-  object-fit: contain;
+  border-radius: 40%;
+  object-fit:cover;
 }
 
 

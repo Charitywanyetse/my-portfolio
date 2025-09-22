@@ -5,6 +5,7 @@ import Services from "./Services";
 import Contact from "./Contact"; 
 import Skills from "./Skills";
 import About from "./About";
+import Footer from "./Footer";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
+        <Route path="/footer" element={<Footer/>} />
         
       </Routes>
     </Router>
