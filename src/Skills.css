@@ -1,6 +1,7 @@
 /* Skills.css */
+/* Skills.css */
 .skills {
-  background-color: #0d1b2a;
+  background-color: #4B0082; /* deep purple background */
   color: white;
   padding: 5rem 10%;
   text-align: center;
@@ -13,7 +14,7 @@
 }
 
 .section-title span {
-  color: #00e0ff;
+  color: #ff99ff; /* light purple highlight */
 }
 
 .skills-container {
@@ -24,26 +25,27 @@
 }
 
 .skill-card {
-  background-color: #112240;
+  background-color: #7B00CC; /* purple card background */
   padding: 1.5rem 2rem;
   border-radius: 12px;
   width: 250px;
   text-align: left;
-  box-shadow: 0 0 15px rgba(0, 224, 255, 0.2);
+  box-shadow: 0 0 15px rgba(123, 0, 204, 0.2); /* purple shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(0, 224, 255, 0.5);
+  box-shadow: 0 0 20px rgba(123, 0, 204, 0.5); /* purple hover shadow */
 }
 
 .skill-card h4 {
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .skill-bar {
-  background-color: #0d1b2a;
+  background-color: #4B0082; /* darker purple for background */
   border-radius: 25px;
   overflow: hidden;
   height: 10px;
@@ -51,7 +53,7 @@
 }
 
 .skill-progress {
-  background-color: #00e0ff;
+  background-color: #ff99ff; /* light purple progress */
   height: 100%;
   width: 0;
   border-radius: 25px;
@@ -60,5 +62,5 @@
 
 .skill-percent {
   font-size: 0.85rem;
-  color: #cccccc;
+  color: #e0dfff; /* light purple text */
 }

@@ -18,7 +18,7 @@ import booking from "./assets/bookings.png";
 
 import web_image from "./assets/web_image.png"; // add a preview image
 import websiteDemo from "./assets/website video.mp4"; // put video in src/assets too
-import portfolio from "./assets/portfolio.mp4";
+import portfolio from "./assets/portfolio1.mp4";
 
 const projects = [
   {

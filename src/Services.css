@@ -1,5 +1,5 @@
 .services {
-  background-color: #0d1b2a;
+  background-color: #4B0082; /* deep purple background */
   color: white;
   padding: 5rem 10%;
   text-align: center;
@@ -13,7 +13,7 @@
 }
 
 .section-title span {
-  color: #00e0ff; /* cyan for "Services" */
+  color: #ff99ff; /* light purple highlight */
 }
 
 /* Services container */
@@ -26,27 +26,28 @@
 
 /* Service cards */
 .service-card {
-  background: #112240;
+  background: #7B00CC; /* purple card background */
   padding: 2rem;
   border-radius: 12px;
   width: 300px;
   text-align: left;
-  box-shadow: 0 0 20px rgba(0, 224, 255, 0.2);
+  box-shadow: 0 0 20px rgba(123, 0, 204, 0.2); /* purple shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 25px rgba(0, 224, 255, 0.6);
+  box-shadow: 0 0 25px rgba(123, 0, 204, 0.6); /* darker purple shadow */
 }
 
 .service-card h3 {
   font-size: 1.3rem;
   margin: 1rem 0;
+  color: #fff; /* heading white */
 }
 
 .service-card p {
-  color: #cccccc;
+  color: #e0dfff; /* light purple text */
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
@@ -55,23 +56,23 @@
 /* Icons */
 .service-icon {
   font-size: 2rem;
-  color: #9D00FF;
+  color: #ff99ff; /* light purple icon */
 }
 
 /* Button */
 .btn {
-  /* background: linear-gradient(90deg, #00e0ff, #0077ff); */
-  background: #9D00FF;
+  background: #9D00FF; /* vibrant purple button */
   color: white;
   padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   font-size: 0.95rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 224, 255, 0.6);
+  box-shadow: 0 0 20px rgba(155, 0, 255, 0.6); /* purple hover glow */
+  background: #7B00CC; /* darker purple on hover */
 }

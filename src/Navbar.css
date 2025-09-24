@@ -1,11 +1,11 @@
-/* General navbar styling */
+/* Navbar container */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #9D00FF;   /* same dark color as in your screenshot */
+  background-color: #9D00FF;  /* vibrant purple */
   padding: 1rem 2.5rem;
-  position: fixed;            /* stays at the top */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,53 +13,95 @@
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-.navbar h1{
-  color: #eee9f1;
-  font-size: medium;
-  margin-left: 100PX;
-  margin-bottom: 0PX;
-  gap: rem;
-}
 
-/* Logo text */
+/* Logo */
 .logo-img {
-  width:80px;   /* adjust size as needed */
+  width: 80px;
   height: 80px;
   border: 2px solid white;
-  border-radius: 40%;
-  object-fit:cover;
+  border-radius: 50%;
+  object-fit: cover;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
-
-/* Navigation links */
+/* Desktop nav links */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 6rem;   /* space between links */
+  gap: 6rem;
   margin: 0;
   padding: 0;
   margin-right: 90px;
   margin-top: 50px;
 }
 
-.nav-links h2{ 
-  margin-left: 0px;
-  font-weight: 4rem;
-  margin-right: 140px;
-  
+.nav-links h2 {
+  margin-left: 0;
+  margin-right: 190px;
+  font-weight: bold;
 }
 
-/* Links inside navbar */
 .nav-links li a {
   text-decoration: none;
   color: white;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 700;
   transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .nav-links li a:hover {
-  color: #00e0ff;  /* cyan glow */
+  color: #ff9dff;  /* lighter purple for hover */
+}
+
+/* Hamburger - hidden on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* Hamburger lines */
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background: white; /* visible on purple navbar */
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animate into "X" */
+.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+
+/* Mobile styles */
+@media (max-width: 900px) {
+  .hamburger {
+    display: flex;       /* show hamburger on mobile */
+    margin-right: 20px;
+  }
+
+  .nav-links {
+    display: none;       /* hidden by default */
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 220px;
+    background-color: #7B00CC;  /* darker purple for mobile menu */
+    padding: 20px;
+    z-index: 1000;
+    margin: 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 12px 0;
+  }
 }

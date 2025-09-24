@@ -1,7 +1,8 @@
 .send-message-container {
   padding: 60px 10%;
-  background: linear-gradient(135deg, #1e1e3f, #2a0d4a); /* dark blue-purple gradient */
+  background: linear-gradient(135deg, #4B0082, #7B00CC); /* purple gradient */
   color: #fff;
+  margin-top: 60px;
 }
 
 .contact-container {
@@ -26,17 +27,17 @@
 .contact-left .title {
   font-size: 2.2rem;
   margin-bottom: 10px;
-   margin-top: 70px;
+  margin-top: 70px;
 }
 
 .contact-left .title span {
   margin-top: 70px;
-  color: #8a2be2; /* purple accent */
+  color: #ff99ff; /* lighter purple accent */
 }
 
 .subtitle {
   font-size: 1.3rem;
-  color: #4fc3f7; /* light blue */
+  color: #dcd0ff; /* soft light purple */
   margin-bottom: 15px;
 }
 
@@ -50,7 +51,7 @@
 .contact-info p {
   margin: 6px 0;
   font-weight: 500;
-  color: #c9c9ff;
+  color: #e0dfff; /* light purple */
 }
 
 /* Right section (form) */
@@ -65,6 +66,7 @@
   gap: 15px;
   background: rgba(255, 255, 255, 0.08); /* glass effect */
   padding: 25px;
+  margin-top: 20px;
   border-radius: 12px;
   backdrop-filter: blur(10px);
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
@@ -96,7 +98,7 @@
   padding: 14px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(90deg, #4fc3f7, #8a2be2);
+  background: linear-gradient(90deg, lab(21.54% 52.57 -52.16), #370558); /* purple gradient button */
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
@@ -106,5 +108,5 @@
 
 .send-message-form button:hover {
   transform: scale(1.05);
-  background: linear
+  background: linear-gradient(90deg, #4c0080, #3c079e); /* darker purple hover */
 }
