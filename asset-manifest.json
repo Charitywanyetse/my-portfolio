@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1a94e88f.css",
-    "main.js": "/my-portfolio/static/js/main.db39bf12.js",
+    "main.css": "/my-portfolio/static/css/main.72683491.css",
+    "main.js": "/my-portfolio/static/js/main.0424febf.js",
     "static/js/453.abb0919a.chunk.js": "/my-portfolio/static/js/453.abb0919a.chunk.js",
     "static/media/website video.mp4": "/my-portfolio/static/media/website video.f90c5a5f75cf245815e0.mp4",
-    "static/media/portfolio.mp4": "/my-portfolio/static/media/portfolio.896d1280796e0540434e.mp4",
+    "static/media/portfolio1.mp4": "/my-portfolio/static/media/portfolio1.b383da480dad8cd05ae7.mp4",
     "static/media/carpet.png": "/my-portfolio/static/media/carpet.305a941e8d455a51ff60.png",
     "static/media/flyer3.png": "/my-portfolio/static/media/flyer3.2e809aa2c81b70ad34ca.png",
     "static/media/fruit_collage.png": "/my-portfolio/static/media/fruit_collage.e348c05b1e7d6d829c4d.png",
@@ -18,12 +18,12 @@
     "static/media/brush.png": "/my-portfolio/static/media/brush.5544bdccc9144b926c04.png",
     "static/media/bookings.png": "/my-portfolio/static/media/bookings.d87a06b3885666175cf9.png",
     "index.html": "/my-portfolio/index.html",
-    "main.1a94e88f.css.map": "/my-portfolio/static/css/main.1a94e88f.css.map",
-    "main.db39bf12.js.map": "/my-portfolio/static/js/main.db39bf12.js.map",
+    "main.72683491.css.map": "/my-portfolio/static/css/main.72683491.css.map",
+    "main.0424febf.js.map": "/my-portfolio/static/js/main.0424febf.js.map",
     "453.abb0919a.chunk.js.map": "/my-portfolio/static/js/453.abb0919a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a94e88f.css",
-    "static/js/main.db39bf12.js"
+    "static/css/main.72683491.css",
+    "static/js/main.0424febf.js"
   ]
 }
